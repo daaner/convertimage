@@ -301,7 +301,7 @@ class ConvertImage implements ConvertImageInterface
         } else {
 
             try {
-                $name = pathinfo($image, PATHINFO_FILENAME);
+                $name = strval(pathinfo($image, PATHINFO_FILENAME));
             } catch (Exception $e) {
                 $name = rand(100,999) . '-' . Str::replace('.', '', strval(microtime(true)));
 
@@ -371,8 +371,8 @@ class ConvertImage implements ConvertImageInterface
             return false;
         }
 
-        $dir = pathinfo($source, PATHINFO_DIRNAME);
-        $name = pathinfo($source, PATHINFO_FILENAME) . '.' . $this->format;
+        $dir = strval(pathinfo($source, PATHINFO_DIRNAME));
+        $name = strval(pathinfo($source, PATHINFO_FILENAME)) . '.' . $this->format;
         $destination = $dir . DIRECTORY_SEPARATOR . $name . '.webp';
         $info = getimagesize($source);
         $isAlpha = false;

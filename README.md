@@ -1,7 +1,15 @@
 # Laravel ConvertImage
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daaner/convertimage/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/daaner/novaposhta/?branch=master)
+[![Laravel Support](https://img.shields.io/badge/Laravel-7+-brightgreen.svg)]()
+[![PHP Support](https://img.shields.io/badge/PHP-7.4+-brightgreen.svg)]()
 
-Удобный пакет для конвертирования изображений в нужную папку
+[![Latest Stable Version](https://poser.pugx.org/daaner/convertimage/v)](//packagist.org/packages/daaner/convertimage)
+[![Total Downloads](https://poser.pugx.org/daaner/convertimage/downloads)](//packagist.org/packages/daaner/convertimage)
+[![License](https://poser.pugx.org/daaner/convertimage/license)](//packagist.org/packages/daaner/convertimage)
+
+
+Удобный пакет для конвертирования изображений в нужную папку для Laravel 7+
 
 
 
