@@ -5,11 +5,31 @@
 
 
 
+## Install
+
+```bash
+composer require daaner/convertimage
+```
+
+Добавьте в шапку
+`use Daaner\ConvertImage\ConvertImage;`
+
+Выполните публикацию конфига командой:
+``` bash
+php artisan vendor:publish --provider="Daaner\ConvertImage\ConvertImageServiceProvider"
+```
+
+
+
 ## Instruction
+
+Передаете изображение - возвращается путь к конвертируемому.
+Для удобства есть некоторые методы API
 
 ```php
 $serv = new ConvertImage;
-$serv->convert('/images/foobar.jpg?12345');
+$output = $serv->convert('/images/foobar.jpg?12345');
+dd($output);
 ```
 
 ### setFolder `(string | callback)`
