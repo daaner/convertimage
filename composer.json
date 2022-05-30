@@ -1,0 +1,42 @@
+{
+    "name": "daaner/convertimage",
+    "description": "ConvertImage for Laravel 7+",
+    "keywords": [
+        "daaner",
+        "image",
+        "convert image"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daan",
+            "email": "daan@ukr.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "intervention/image": "^2.5",
+        "laravel/framework": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daaner\\ConvertImage\\Facades\\": "src/Facades",
+            "Daaner\\ConvertImage\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daaner\\ConvertImage\\ConvertImageServiceProvider"
+            ],
+            "aliases": {
+                "ConvertImage": "Daaner\\ConvertImage\\Facades\\ConvertImage"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
