@@ -1,6 +1,6 @@
 # Laravel ConvertImage
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daaner/convertimage/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/daaner/novaposhta/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daaner/convertimage/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/daaner/convertimage/?branch=master)
 [![Laravel Support](https://img.shields.io/badge/Laravel-7+-brightgreen.svg)]()
 [![PHP Support](https://img.shields.io/badge/PHP-7.4+-brightgreen.svg)]()
 
